@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menú despegable</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+
+  <body>
+    <nav class="nav">
+      <ul class="list">
+        <li class="list_item">
+          <div class="list_button">
+            <image src="assets/dashboard.svg" class="list_img"> </image>
+            <a href="#" class="nav_link">Inicio </a>
+          </div>
+        </li>
+
+        <li class="list_item list_item--clic">
+          <div class="list_button list_button--click">
+            <img src="assets/docs.svg" class="list_img" />
+            <a href="#" class="nav_link">Servicios</a>
+            <img src="assets/arrow.svg" class="list_arrow" />
+          </div>
+          <ul class="list_show">
+            <li class="list_inside">
+              <a href="#" class="nav_link nav_link--inside">Servicio 1</a>
+            </li>
+            <li class="list_inside">
+              <a href="#" class="nav_link nav_link--inside">Servicio 2</a>
+            </li>
+            <li class="list_inside">
+              <a href="#" class="nav_link nav_link--inside">Servicio 3</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="list_item">
+          <div class="list_button">
+            <image src="assets/stats.svg" class="list_img"> </image>
+            <a href="#" class="nav_link">Estadisticas </a>
+          </div>
+        </li>
+
+        <li class="list_item list_item--clic">
+          <div class="list_button list_button--click">
+            <img src="assets/bell.svg" class="list_img" />
+            <a href="#" class="nav_link">Notificaciones</a>
+            <img src="assets/arrow.svg" class="list_arrow" />
+          </div>
+          <ul class="list_show">
+            <li class="list_inside">
+              <a href="#" class="nav_link nav_link--inside">Notificación 1</a>
+            </li>
+            <li class="list_inside">
+              <a href="#" class="nav_link nav_link--inside">Notificación 2</a>
+            </li>
+            <li class="list_inside">
+              <a href="#" class="nav_link nav_link--inside">Notificación 3</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="list_item">
+          <div class="list_button">
+            <image src="assets/message.svg" class="list_img"> </image>
+            <a href="#" class="nav_link">Contacto</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <script src="main.js"></script>
+  </body>
+</html>
